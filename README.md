@@ -16,4 +16,10 @@ We tested the performance of several protein imputation methods on several datas
 
 Our analyses were implemented using a Nextflow pipeline. You can find more details regarding Nextflow development and execution in the [documentation](https://www.nextflow.io/docs/latest/index.html). To understand how we executed the pipeline, consult the submit_pipe.sh file. 
 
-Each protein imputation method was implemented using a separate conda environment, to avoid version conflicts. These environments are defined in yml files alongside the method execution scripts in the modules folder. You will need to make sure you specify either a conda env path or yml path.  
+Each protein imputation method was implemented using a separate conda environment, to avoid version conflicts. These environments are defined in yml files alongside the method execution scripts in the modules folder. You will need to make sure you specify either a conda env path or yml path. 
+
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
